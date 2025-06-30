@@ -1,0 +1,33 @@
+baseURL = "https://AI_Growthlog.github.io/"  # ← yourusername을 본인 GitHub 아이디로 변경!
+languageCode = "ko-kr"
+title = "직장인 AI활용 성장기록"
+theme = "PaperMod"
+
+[params]
+  description = "평범한 직장인의 좌충우돌 AI 도전"
+  author = "직장인"
+  
+  # 한국어 설정
+  defaultContentLanguage = "ko"
+  
+  # 홈 화면 설정
+  [params.homeInfoParams]
+    Title = "안녕하세요 👋"
+    Content = "평범한 직장인이 AI와 함께 성장하고자 도전하는 이야기를 담습니다"
+
+
+# 메뉴 설정
+[[menu.main]]
+  name = "홈"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "글목록"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "소개"
+  url = "/about/"
+  weight = 3
